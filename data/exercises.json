@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Bench Press",
+    "primary": ["chest"],
+    "secondary": ["triceps", "shoulders"],
+    "equipment": "barbell",
+    "type": "compound"
+  },
+  {
+    "name": "Incline Dumbbell Press",
+    "primary": ["chest"],
+    "secondary": ["triceps", "shoulders"],
+    "equipment": "dumbbells",
+    "type": "compound"
+  },
+  {
+    "name": "Machine Fly",
+    "primary": ["chest"],
+    "secondary": [],
+    "equipment": "cable",
+    "type": "isolation"
+  },
+  {
+    "name": "Tricep Pushdown",
+    "primary": ["triceps"],
+    "secondary": ["shoulders"],
+    "equipment": "cable",
+    "type": "isolation"
+  },
+  {
+    "name": "Skull Crushers",
+    "primary": ["triceps"],
+    "secondary": [],
+    "equipment": "barbell",
+    "type": "isolation"
+  }
+]
