@@ -8,6 +8,10 @@ const PORT = 3001;
 app.use(cors());
 app.use(express.json());
 
+// routes
+const exerciseRoutes = require("./routes/exercises");
+app.use("/exercises", exerciseRoutes);
+
 // test route
 app.get("/", (req, res) => {
     res.send("Backend is running!");
