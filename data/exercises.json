@@ -7,23 +7,58 @@
     "type": "compound"
   },
   {
-    "name": "Incline Dumbbell Press",
+    "name": "Incline Bench Press",
+    "primary": ["chest"],
+    "secondary": ["triceps", "shoulders"],
+    "equipment": "barbell",
+    "type": "compound"
+  },
+  {
+    "name": "Dumbbell Bench Press",
     "primary": ["chest"],
     "secondary": ["triceps", "shoulders"],
     "equipment": "dumbbells",
     "type": "compound"
   },
   {
-    "name": "Machine Fly",
+    "name": "Dumbbell Incline Press",
+    "primary": ["chest"],
+    "secondary": ["triceps", "shoulders"],
+    "equipment": "dumbbells",
+    "type": "compound"
+  },
+  {
+    "name": "Cable Fly",
     "primary": ["chest"],
     "secondary": [],
     "equipment": "cable",
     "type": "isolation"
   },
   {
+    "name": "Chest Fly Machine",
+    "primary": ["chest"],
+    "secondary": [],
+    "equipment": "machine",
+    "type": "isolation"
+  },
+  {
+    "name": "Push-Up",
+    "primary": ["chest"],
+    "secondary": ["triceps", "shoulders"],
+    "equipment": "bodyweight",
+    "type": "compound"
+  },
+  {
     "name": "Tricep Pushdown",
     "primary": ["triceps"],
-    "secondary": ["shoulders"],
+    "secondary": [],
+    "equipment": "cable",
+    "type": "isolation"
+  },
+  {
+    "name": "Overhead Cable Extension",
+    "primary": ["triceps"],
+    "secondary": [],
     "equipment": "cable",
     "type": "isolation"
   },
@@ -32,6 +67,216 @@
     "primary": ["triceps"],
     "secondary": [],
     "equipment": "barbell",
+    "type": "isolation"
+  },
+  {
+    "name": "Dips",
+    "primary": ["triceps"],
+    "secondary": ["chest", "shoulders"],
+    "equipment": "bodyweight",
+    "type": "compound"
+  },
+  {
+    "name": "Close-Grip Bench Press",
+    "primary": ["triceps"],
+    "secondary": ["chest"],
+    "equipment": "barbell",
+    "type": "compound"
+  },
+  {
+    "name": "Overhead Press",
+    "primary": ["shoulders"],
+    "secondary": ["triceps"],
+    "equipment": "barbell",
+    "type": "compound"
+  },
+  {
+    "name": "Dumbbell Shoulder Press",
+    "primary": ["shoulders"],
+    "secondary": ["triceps"],
+    "equipment": "dumbbells",
+    "type": "compound"
+  },
+  {
+    "name": "Lateral Raise",
+    "primary": ["shoulders"],
+    "secondary": [],
+    "equipment": "dumbbells",
+    "type": "isolation"
+  },
+  {
+    "name": "Front Raise",
+    "primary": ["shoulders"],
+    "secondary": [],
+    "equipment": "dumbbells",
+    "type": "isolation"
+  },
+  {
+    "name": "Rear Delt Fly",
+    "primary": ["shoulders"],
+    "secondary": ["back"],
+    "equipment": "dumbbells",
+    "type": "isolation"
+  },
+  {
+    "name": "Lat Pulldown",
+    "primary": ["back"],
+    "secondary": ["biceps"],
+    "equipment": "machine",
+    "type": "compound"
+  },
+  {
+    "name": "Seated Cable Row",
+    "primary": ["back"],
+    "secondary": ["biceps"],
+    "equipment": "cable",
+    "type": "compound"
+  },
+  {
+    "name": "Barbell Row",
+    "primary": ["back"],
+    "secondary": ["biceps", "shoulders"],
+    "equipment": "barbell",
+    "type": "compound"
+  },
+  {
+    "name": "Dumbbell Row",
+    "primary": ["back"],
+    "secondary": ["biceps"],
+    "equipment": "dumbbells",
+    "type": "compound"
+  },
+  {
+    "name": "Pull-Up",
+    "primary": ["back"],
+    "secondary": ["biceps"],
+    "equipment": "bodyweight",
+    "type": "compound"
+  },
+  {
+    "name": "Barbell Curl",
+    "primary": ["biceps"],
+    "secondary": [],
+    "equipment": "barbell",
+    "type": "isolation"
+  },
+  {
+    "name": "Dumbbell Curl",
+    "primary": ["biceps"],
+    "secondary": [],
+    "equipment": "dumbbells",
+    "type": "isolation"
+  },
+  {
+    "name": "Hammer Curl",
+    "primary": ["biceps"],
+    "secondary": ["forearms"],
+    "equipment": "dumbbells",
+    "type": "isolation"
+  },
+  {
+    "name": "Cable Curl",
+    "primary": ["biceps"],
+    "secondary": [],
+    "equipment": "cable",
+    "type": "isolation"
+  },
+  {
+    "name": "Squat",
+    "primary": ["quads"],
+    "secondary": ["glutes", "hamstrings"],
+    "equipment": "barbell",
+    "type": "compound"
+  },
+  {
+    "name": "Leg Press",
+    "primary": ["quads"],
+    "secondary": ["glutes"],
+    "equipment": "machine",
+    "type": "compound"
+  },
+  {
+    "name": "Leg Extension",
+    "primary": ["quads"],
+    "secondary": [],
+    "equipment": "machine",
+    "type": "isolation"
+  },
+  {
+    "name": "Deadlift",
+    "primary": ["hamstrings"],
+    "secondary": ["glutes", "back"],
+    "equipment": "barbell",
+    "type": "compound"
+  },
+  {
+    "name": "Romanian Deadlift",
+    "primary": ["hamstrings"],
+    "secondary": ["glutes"],
+    "equipment": "barbell",
+    "type": "compound"
+  },
+  {
+    "name": "Hamstring Curl",
+    "primary": ["hamstrings"],
+    "secondary": [],
+    "equipment": "machine",
+    "type": "isolation"
+  },
+  {
+    "name": "Hip Thrust",
+    "primary": ["glutes"],
+    "secondary": ["hamstrings"],
+    "equipment": "barbell",
+    "type": "compound"
+  },
+  {
+    "name": "Glute Bridge",
+    "primary": ["glutes"],
+    "secondary": [],
+    "equipment": "bodyweight",
+    "type": "isolation"
+  },
+  {
+    "name": "Cable Kickback",
+    "primary": ["glutes"],
+    "secondary": [],
+    "equipment": "cable",
+    "type": "isolation"
+  },
+  {
+    "name": "Standing Calf Raise",
+    "primary": ["calves"],
+    "secondary": [],
+    "equipment": "machine",
+    "type": "isolation"
+  },
+  {
+    "name": "Seated Calf Raise",
+    "primary": ["calves"],
+    "secondary": [],
+    "equipment": "machine",
+    "type": "isolation"
+  },
+  {
+    "name": "Crunch",
+    "primary": ["abs"],
+    "secondary": [],
+    "equipment": "bodyweight",
+    "type": "isolation"
+  },
+  {
+    "name": "Cable Crunch",
+    "primary": ["abs"],
+    "secondary": [],
+    "equipment": "cable",
+    "type": "isolation"
+  },
+  {
+    "name": "Hanging Leg Raise",
+    "primary": ["abs"],
+    "secondary": ["hip flexors"],
+    "equipment": "bodyweight",
     "type": "isolation"
   }
 ]
